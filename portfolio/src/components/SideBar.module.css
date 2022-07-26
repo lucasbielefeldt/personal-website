@@ -1,0 +1,38 @@
+:root {
+  --bg-sidebar: rgb(45, 45, 45);
+}
+
+.container {
+  background: var(--bg-sidebar);
+  width: 15rem;
+  height: 620px;
+  align-items: top;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.sidebar {
+  margin-top: 12rem; 
+}
+
+.sidebar li {
+  padding: 0.5rem;
+  list-style: none;
+}
+
+.sidebar li > a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
