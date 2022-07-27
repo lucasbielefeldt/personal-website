@@ -1,0 +1,21 @@
+
+.container {
+    display: flex;
+}
+
+.nav {
+    background: var(--bg-sidebar);
+    width: 15rem;
+    height: 620px;
+    align-items: top;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
